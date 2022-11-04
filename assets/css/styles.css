@@ -263,12 +263,12 @@ div.top3-content {
         right: 2rem;
         background: var(--primary-color);
         color: var(--white);
-        font-size: 3rem;
+        font-size: 4rem;
         line-height: 3rem;
         width: 3rem;
         height: 3rem;
         text-align: center;
-        padding: 0.5rem;
+        padding: 3rem;
         cursor: pointer;
     }
 
@@ -280,6 +280,11 @@ div.top3-content {
     .close-menu:checked~.close-menu-label::after {
         content: '×';
 
+    }
+    .back-to-top {
+        width: 10rem;
+        height: 10rem;
+        font-size: 4rem;
     }
 
     .menu-spacing {

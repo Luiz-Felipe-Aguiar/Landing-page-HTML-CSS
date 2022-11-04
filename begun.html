@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div id="menu-correction" class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#intro">Sobre mim</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Apresentação</a></li>
+                    <li><a href="#top3">Objetivos</a></li>
+                    <li><a href="#grid-one">Projetos</a></li>
+                    <li><a href="#gallery">Experiência</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text">
+                <h2>Quem sou eu?</h2>
+                <p>Me chamo Luiz Felipe,sou um estudante de ciência da computação e uma pessoa genuinamente interessado
+                    por inovação e tecnologia. Visando aplicar e expandir meus conhecimentos dentro
+                    da área de TI. Já tive algumas oportunidades de participar de alguns projetos e de ter experiências
+                    profissionais na área e acredito
+                    que quando as pessoas querem, elas sempre podem contribuir umas coma as outras com conhecimentos.
+                </p>
+            </div>
+            <div class="intro-img"><img src="assets/img/sou-eu.svg" alt="desenho de 
+        um homem segurando anotações."> </div>
+        </div>
+    </section>
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Objetivos</h2>
+            <p>Meus ojetivos são divididos em 2 áreas, a pessoal e a profissional.</p>
+            <p>Na área pessoal, meus maiores objetivos são os de adquirir conhecimento para usá-los em prol do mundo,
+                ajudando na solução de problemas com o uso de ferramentas que a tecnologia nos proporciona.</p>
+            <p>No ambito profissional, tenho interesse de aprender sobre o funcionamento de grandes empresas, seja da
+                minha área ou não e como eu
+                posso fazer para contribuir usando meu conhecimento. Tenho muita curiosidade relacionada voltada para as
+                áreas de segurança cibernética,
+                manipulação de big data e desenvolvimento full-stack, mas adoro ter experiências e conhecer áreas novas
+                e diferentes. Sou uma pessoa também sempre disposta a encarar desafios com empolgação.</p>
+        </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Projetos</h2>
+            <p class="grid-description">Projetos que mais gostei de trabalhar.</p>
+            <div class="grid">
+                <article>
+                    <h3>Modelagem e prototipagem</h3>
+                    <p>Participei de um projeto academico, onde tivemos um cliente que nos
+                        pediu um site/app de leilão. Trabalhamos na parte de
+                        modelagem de tabelas relacionais para estruturar o
+                        sistema e depois fizemos sua prototipagem ultilizando design UI/UX.</p>
+                </article>
+                <article>
+                    <h3>Construção desta página</h3>
+                    <p>Para relembrar e atualizar meus conhecimentos em HTML e CSS, me desafiei a
+                        construir esta landing page que me ajudou a relembrar conceitos antigos e aprender coisas e
+                        funcionalidades novas, além de me capacitar para estruturar páginas e estiliza-las.</p>
+                </article>
+                <article>
+                    <h3>Jogo em Java</h3>
+                    <p>Desenvolvi um jogo de RPG de turnos em JAVA para treinar o conceito de POO, onde criamos classes
+                        de guerreiros de tipos diferentes, com métodos e atributos especificos
+                        para cada tipo de jogador, seja ele mago com mais resistência a magia, arqueiro com mais
+                        velocidade de ataque e menos vida ou lutador com mais vida, menos resistência a magia e mais
+                        força por exemplo.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Experiência Profissional</h2>
+            <p class="grid-description">Aqui está um breve resumo das minhas experiências no mercado de trabalho.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/arcelor.png" alt="random image from unsplash">
+                    <p>6 meses como estagiário em SAP-TM na ArcelorMittal</p>
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/em-breve.png" alt="random image from unsplash">
+                    <p>Atualmente em busca da proxima jornada!</p>
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/em-breve.png" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content ">
+            <div class="intro-text">
+                <h2>contatos</h2>
+                <p>Você pode me achar através do meu email: luizaguiarcastro@gmail.com <br>
+                    ou apenas preenchendo este formulário abaixo, digitando
+                    seu nome, sobrenome, email e escrevendo sua mensagem!! Responderei bem rápido!!
+                </p>
+                <div class="links-cont">
+                    <a href="https://www.instagram.com/_luizfaguiar_/" target="_blank"> <img
+                            src="assets/img/insta-logo.png" alt="logo do Instagram"> </a>
+                    <a class="logo-correction" href="https://github.com/Luiz-Felipe-Aguiar" target="_blank"> <img
+                            src="assets/img/github-logo.png" alt="logo do github"> </a>
+                    <a class="logo-correction" href="https://www.linkedin.com/in/luiz-felipe-aguiar-10206b20a/"
+                        target="_blank"> <img src="assets/img/logo-linkedin.png" alt="logo do linkedin"> </a>
+                </div>
+            </div>
+            <div class="intro-img"><img src="assets/img/contato-img.svg" alt="desenho de 
+        um homem segurando anotações."> </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Formulário de contato:</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <P><a rel="nofollow" target="_blank" href="#">Obrigado pelo seu tempo!!😄😄</a></P>
+    </footer>
+    <a class="back-to-top" href="#intro">➤</a>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+Olá, esse projeto é uma landing page simples usando HTML e CSS que fiz para relembrar e me atualizar sobre estas ferramentas.

@@ -209,6 +209,9 @@ div.top3-content {
 }
 
 @media (max-width:80rem) {
+    p {
+        font-size: 4rem;
+    }
     .section {
         min-width: 100vh;
     }
